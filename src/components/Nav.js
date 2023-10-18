@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
     return (
@@ -22,7 +23,7 @@ export default function Nav() {
                         <nav className="navbar bg-#040440 ">
 
                             <div className="container im" style={{ maxWidth: '24rem' }}>
-                                <a className="text-white navbar-brand mb-0 h1" href="/">
+                                <Link className="text-white navbar-brand mb-0 h1" to="/">
 
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-speedometer2" viewBox="0 0 16 16">
                                         <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z" />
@@ -37,7 +38,7 @@ export default function Nav() {
 
                         <nav className="navbar bg-body-tertiary-#040440">
                             <div className="container im" style={{ maxWidth: '24rem' }}>
-                                <a className="navbar-brand text-white md-0 h1" href="/" >
+                                <Link className="navbar-brand text-white md-0 h1" to="/" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-boxes" viewBox="0 0 16 16">
                                         <path d="M7.752.066a.5.5 0 0 1 .496 0l3.75 2.143a.5.5 0 0 1 .252.434v3.995l3.498 2A.5.5 0 0 1 16 9.07v4.286a.5.5 0 0 1-.252.434l-3.75 2.143a.5.5 0 0 1-.496 0l-3.502-2-3.502 2.001a.5.5 0 0 1-.496 0l-3.75-2.143A.5.5 0 0 1 0 13.357V9.071a.5.5 0 0 1 .252-.434L3.75 6.638V2.643a.5.5 0 0 1 .252-.434L7.752.066ZM4.25 7.504 1.508 9.071l2.742 1.567 2.742-1.567L4.25 7.504ZM7.5 9.933l-2.75 1.571v3.134l2.75-1.571V9.933Zm1 3.134 2.75 1.571v-3.134L8.5 9.933v3.134Zm.508-3.996 2.742 1.567 2.742-1.567-2.742-1.567-2.742 1.567Zm2.242-2.433V3.504L8.5 5.076V8.21l2.75-1.572ZM7.5 8.21V5.076L4.75 3.504v3.134L7.5 8.21ZM5.258 2.643 8 4.21l2.742-1.567L8 1.076 5.258 2.643ZM15 9.933l-2.75 1.571v3.134L15 13.067V9.933ZM3.75 14.638v-3.134L1 9.933v3.134l2.75 1.571Z" />
                                     </svg>
@@ -51,7 +52,7 @@ export default function Nav() {
 
                         <nav className="navbar bg-body-tertiary-#040440">
                             <div className="container im" style={{ maxWidth: '24rem' }}>
-                                <a className="navbar-brand text-white" href="/">
+                                <Link className="navbar-brand text-white" to="/">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
                                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                                         <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
@@ -67,7 +68,7 @@ export default function Nav() {
 
                         <nav className="navbar bg-body-tertiary-#040440">
                             <div className="container im" style={{ maxWidth: '24rem' }}>
-                                <a className="navbar-brand text-white" href="/">
+                                <Link className="navbar-brand text-white" to="/">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-wallet2" viewBox="0 0 16 16">
                                         <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
                                     </svg>
@@ -81,7 +82,7 @@ export default function Nav() {
 
                         <nav className="navbar bg-body-tertiary-#040440">
                             <div className="container im" style={{ maxWidth: '24rem' }}>
-                                <a className="navbar-brand text-white" href="/">
+                                <Link className="navbar-brand text-white" to="/">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-patch-check" viewBox="0 0 16 16">
                                         <path fillRule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
                                         <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z" />
@@ -96,7 +97,7 @@ export default function Nav() {
 
                         <nav className="navbar bg-body-tertiary-#040440">
                             <div className="container im" style={{ maxWidth: '24rem' }}>
-                                <a className="navbar-brand text-white" href="/">
+                                <Link className="navbar-brand text-white" to="/">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chat-right-dots" viewBox="0 0 16 16">
                                         <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z" />
                                         <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
@@ -121,16 +122,16 @@ export default function Nav() {
 
                         <hr/>
                         <div className="dropdown align-items-end ">
-                            <a href="/" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="/" className="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="" alt="" width="32" height="32" className="rounded-circle me-2" />
                                 <strong>Profile</strong>
                             </a>
                             <ul className="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1" >
-                                <li><a className="dropdown-item" href="/">New project...</a></li>
-                                <li><a className="dropdown-item" href="/">Settings</a></li>
-                                <li><a className="dropdown-item" href="/">Profile</a></li>
+                                <li><Link className="dropdown-item" to="/">New project...</Link></li>
+                                <li><Link className="dropdown-item" to="/">Settings</Link></li>
+                                <li><Link className="dropdown-item" to="/">Profile</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="/">Sign out</a></li>
+                                <li><Link className="dropdown-item" to="/">Sign out</Link></li>
                             </ul>
                         </div>
                         
@@ -142,7 +143,7 @@ export default function Nav() {
                     <div className='col-10'>
                         <nav className="navbar bg-body-tertiary">
                             <div className="container-fluid">
-                                <a className="navbar-brand" href='/'>Hello, profile</a>
+                                <Link className="navbar-brand" to='/'>Hello, profile</Link>
                                 <form className="d-flex" role="search">
                                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
                                     <button className="btn btn-outline-success" type="submit">
